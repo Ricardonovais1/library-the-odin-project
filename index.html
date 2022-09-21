@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <title>JS Library App</title>
+</head>
+<body>
+    <header class="header">
+       <span class="header-span">
+        <h1 class="title">Minha Biblioteca</h1>
+        <button type="button" class="add-book">Novo Livro</button>
+        <p class="user-name">Ricardo Novais</p>
+        <img src="./img/Foto Ricardo Novais(1).png" alt="" class="photo">
+       </span> 
+    </header>
+    <main class="main">
+        <div class="books-container">
+            <div class="popup-wrapper">
+                <div class="modal">
+                    <div class="modal-close">x</div>
+                    
+                    <form action="#" class="form">   
+                        <h2 class="modal-title">NOVO LIVRO</h2>
+                            <label for="title">Livro</label>
+                            <input class="book-name" id="title" type="text">
+                    
+                            <label for="author">Autor</label>
+                            <input class="book-author" id="author" type="text">
+                        
+                            <label for="pages">Páginas</label>
+                            <input class="book-pages" id="pages" type="text">
+                            
+                            <button class="submit-new-book">ADICIONAR</button>                    
+                    </form>
+                </div>
+                
+            </div>
+            <div class="popup-wrapper-edit">
+                <div class="modal">
+                    <div class="modal-close">x</div>
+                    
+                    <form action="#" class="form">   
+                        <h2 class="modal-title">EDITAR LIVRO</h2>
+                            <label for="title">Livro</label>
+                            <input class="book-name" id="title" type="text">
+                    
+                            <label for="author">Autor</label>
+                            <input class="book-author" id="author" type="text">
+                        
+                            <label for="pages">Páginas</label>
+                            <input class="book-pages" id="pages" type="text">
+                            
+                            <button class="submit-new-book">ADICIONAR</button>                    
+                    </form>
+                </div>
+                
+            </div>
+            <!-- <div class="trash-wrapper">
+                <div class="trash-modal">
+                    <h3 class="delete-text">Tem certeza que deseja excluir?</h3>
+                    
+                    <button class="cancel-delete">Cancelar</button>    
+                            
+                    <button class="delete-book">EXCLUIR</button>                    
+                </div>
+            </div> -->
+        </div>
+        
+    </main>
+    
+</body>
+</html>
